@@ -63,3 +63,22 @@ Password: password
 
 As a customer, you **MUST** sign in, before you are able to place orders and view your order history...
 The web is user friendly and easy to navigate. Go ahead and have fun!
+
+
+
+## Simple user journey suggestion
+1. User wants to explore the web without signing in.
+   -User can navigate about the web using the navigation bar, exploring
+     - Home Page
+     - Menu Page
+     - About Us Page
+     - Contact Us Page
+2. User logs in and view order history, and order some food, and check order history again
+   - User navigate to Sign in page, and key in credentials
+   - User clicks on Order via the navigation bar
+   - User scrolls down and click on View Order History
+   - User can click Back to Ordering
+   - User orders some food by clicking the plus arrow beside the dish names
+   - User clicks on checkout
+   - User clicks on Back To Ordering
+   - User clicks on View Order History
