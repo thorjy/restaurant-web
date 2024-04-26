@@ -1,6 +1,6 @@
 {{#if this.auth.isAuthenticated}}
-  <button id="sign" type="button" {{on "click" this.goBack}}>Back To Ordering</button>
   <div class="history-container">
+    <button id="sign" type="button" {{on "click" this.goBack}}>Back To Ordering</button>
     <h2>Order History</h2>
     {{#if (empty this.model)}}
       <p>OOPS! You do not have any order History....</p>
