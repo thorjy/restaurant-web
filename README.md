@@ -36,7 +36,7 @@ followed by
  ```bash
 npm start
 ```
-  - In your terminal, navigate to restaurant-web/frontend folder, type
+  - In your terminal, create a new terminal, and navigate to restaurant-web/frontend folder, type
  ```bash
 npm i
 ```
