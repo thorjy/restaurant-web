@@ -18,17 +18,17 @@ Follow these steps to set up the repository and run the app:
 ```bash
 git clone https://github.com/thorjy/restaurant-web.git
 ```
-  - Look for the folder "restaurant-web", and open it up on VSCode.
+  - Look for the folder "**restaurant-web**" in your local system, and open it up on VSCode.
 
 
 2. Set up backend:
-  - Go to restaurant-web/backend/src/datasources/postgres-ds.datasource.ts, and amend the config object.
-  - Change 'user', 'password' to match the credentials of your pgAdmin 4
+  - Go to **restaurant-web/backend/src/datasources/postgres-ds.datasource.ts**, and amend the **config** object.
+  - Change '**user**', '**password**' to match the credentials of your pgAdmin 4
 3. Set up database:
-- Go to pgAdmin 4 and manually create a new Database called "menuDB"
+- Go to pgAdmin 4 and manually create a new Database called "**menuDB**"
 - Ensure that the name is exactly the same, as the backend server would be looking for this database
 4. Install Dependencies for both frontend and backend, and start both servers.
-  - In your terminal, navigate to restaurant-web/backend folder, type 
+  - In your terminal, navigate to **restaurant-web/backend** folder, type 
   ```bash
 npm i
 ```
@@ -36,11 +36,11 @@ followed by
  ```bash
 npm run migrate
 ```
-- This will run the migration scheme, and create the tables for the database. Once done, start the backend server by running
+This will run the migration scheme, and create the tables for the database. Once done, start the backend server by running
  ```bash
 npm start
 ```
-  - In your terminal, create a new terminal, and navigate to restaurant-web/frontend folder, type
+  - In your terminal, create a new terminal, and navigate to **restaurant-web/frontend** folder, type
  ```bash
 npm i
 ```
@@ -49,3 +49,17 @@ followed by
 npm start
 ```
 6. Open up your browser (Google Chrome) and navigate to the website to explore!!! (http://localhost:4200/)
+
+
+## Using the Web
+In the database, I have initialised two users:
+### user 1 
+Username: test
+Password: password
+
+### user 2
+Username: bot
+Password: password
+
+As a customer, you **MUST** sign in, before you are able to place orders and view your order history...
+The web is user friendly and easy to navigate. Go ahead and have fun!
