@@ -13,6 +13,9 @@ export class Customer extends Entity {
   @property({
     type: 'string',
     required: true,
+    index: {
+      unique: true,
+    },
   })
   username: string;
 
