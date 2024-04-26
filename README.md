@@ -54,11 +54,11 @@ npm start
 ## Using the Web
 In the database, I have initialised two users:
 ### user 1 
-Username: test
+Username: test <br>
 Password: password
 
 ### user 2
-Username: bot
+Username: bot <br>
 Password: password
 
 As a customer, you **MUST** sign in, before you are able to place orders and view your order history...
