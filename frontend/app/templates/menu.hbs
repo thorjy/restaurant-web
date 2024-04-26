@@ -1,0 +1,8 @@
+<div class="menu-container">
+  <h2>ALL DAY MENU</h2>
+  <div class="menu-body">
+    {{#each this.model as |menuItem|}}
+      <Item @item={{menuItem}} />
+    {{/each}}
+  </div>
+</div>

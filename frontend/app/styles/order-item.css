@@ -1,0 +1,30 @@
+.order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-body {
+  width: 50%;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  background-color: #777;
+  border: none;
+  color: white;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.quantity-label {
+  margin: 0 10px;
+  font-size: 18px;
+}

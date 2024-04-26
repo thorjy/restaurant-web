@@ -1,0 +1,11 @@
+.food-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+}
+
+.item p {
+  font-size: 18px;
+  color: white;
+  margin-top: -25px;
+}

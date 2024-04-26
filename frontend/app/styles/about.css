@@ -1,0 +1,23 @@
+.about {
+  text-align: center;
+  max-width: 50%; /* Set the maximum width */
+  margin: 2% auto;
+  position: relative; /* Add relative positioning */
+}
+
+.about p {
+  color: rgb(232 208 186);
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 10px; /* Increase the margin to provide space between paragraphs */
+}
+
+.my-photo {
+  position: relative; /* Add relative positioning */
+}
+
+.my-photo img {
+  max-width: 100%; /* Ensure the image does not exceed its container */
+  height: 300px; /* Allow the height to adjust proportionally */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}

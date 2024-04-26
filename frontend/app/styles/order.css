@@ -1,0 +1,56 @@
+.order-container {
+  display: flex;
+  flex-direction: column;
+  color: rgb(232 208 186);
+  align-items: center;
+  width: 100%;
+}
+
+.bottom {
+  display: flex;
+  gap: 3%;
+  min-width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#history-h2 {
+  margin-top: 10%;
+}
+
+.bottom button,
+#sign {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.bottom button:hover,
+#sign:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+#history {
+  background-color: goldenrod; /* Set background color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#history:hover {
+  background-color: gold; /* Change background color on hover */
+  border-color: gold; /* Change border color on hover */
+}

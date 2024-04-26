@@ -1,0 +1,32 @@
+{{#if this.auth.isAuthenticated}}
+  <button id="sign" type="button" {{on "click" this.goBack}}>Back To Ordering</button>
+  <div class="history-container">
+    <h2>Order History</h2>
+    {{#if (empty this.model)}}
+      <p>OOPS! You do not have any order History....</p>
+    {{else}}
+      {{#each this.model as |object index|}}
+        <div class="cart-item">
+          <h4>Cart {{inc index}}</h4>
+          <div class="history-body">
+            {{#each object.orders as |order|}}
+              <div class="order-item">
+                <p>{{order.dishName}}</p>
+                <p>${{order.price}}</p>
+                <p>Quantity: {{order.quantity}}</p>
+              </div>
+            {{/each}}
+          </div>
+          <h4>Total Price: ${{object.cart.totalPrice}}</h4>
+        </div>
+      {{/each}}
+    {{/if}}
+  </div>
+{{else}}
+  <div class="order-container">
+    <h2>Please sign in first!</h2>
+    <LinkTo @route="login" class="nav-login">
+      <button id="sign" type="button">Sign in</button>
+    </LinkTo>
+  </div>
+{{/if}}

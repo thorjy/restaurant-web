@@ -1,0 +1,24 @@
+<nav class="navbar">
+  <LinkTo @route="index" class="nav-index">
+    <h1>Home</h1>
+  </LinkTo>
+  <LinkTo @route="menu" class="nav-menu">
+    <h1>Menu</h1>
+  </LinkTo>
+  {{#if this.loggedIn}}
+    <LinkTo @route="order" class="nav-order">
+      <h1>Order</h1>
+    </LinkTo>
+  {{else}}
+    <LinkTo @route="login" class="nav-login">
+      <h1>Sign in</h1>
+    </LinkTo>
+
+  {{/if}}
+  <LinkTo @route="about" class="nav-about">
+    <h1>About Us</h1>
+  </LinkTo>
+  <LinkTo @route="contact" class="nav-contact">
+    <h1>Contact Us</h1>
+  </LinkTo>
+</nav>

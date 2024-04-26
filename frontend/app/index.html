@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Frontend</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {{content-for "head"}}
+
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/frontend.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/nav-bar.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/item.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/menu.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/about.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/contact.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/order.css" />
+    <link integrity="" rel="stylesheet" href="{{rootURL}}assets/history.css" />
+    <link
+      integrity=""
+      rel="stylesheet"
+      href="{{rootURL}}assets/order-item.css"
+    />
+    <link
+      integrity=""
+      rel="stylesheet"
+      href="{{rootURL}}assets/login-form.css"
+    />
+
+    {{content-for "head-footer"}}
+  </head>
+  <body>
+    {{content-for "body"}}
+
+    <script src="{{rootURL}}assets/vendor.js"></script>
+    <script src="{{rootURL}}assets/frontend.js"></script>
+
+    {{content-for "body-footer"}}
+  </body>
+</html>

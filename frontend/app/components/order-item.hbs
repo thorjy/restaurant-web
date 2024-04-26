@@ -1,0 +1,19 @@
+<div class="order-item">
+  <div class="food-header">
+    <h5>{{this.name}} ----- ${{this.price}}</h5>
+  </div>
+  <div class="quantity-controls">
+    <button
+      class="quant"
+      type="button"
+      {{on "click" this.decrementQuantity}}
+    >-</button>
+    <span class="quantity-label"> {{this.quantity}}</span>
+    <button
+      class="quant"
+      type="button"
+      {{on "click" this.incrementQuantity}}
+    >+</button>
+
+  </div>
+</div>

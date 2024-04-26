@@ -1,0 +1,50 @@
+.login-input {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 3% auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.login-input p {
+  color: rgb(245 19 2);
+}
+
+#username-label,
+#password-label {
+  color: rgb(232 208 186);
+}
+
+#username,
+#password {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+}
+
+#login-button {
+  margin-top: 20px;
+  min-width: 100px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login-button:hover {
+  background-color: #0056b3;
+}

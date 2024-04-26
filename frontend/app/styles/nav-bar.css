@@ -1,0 +1,16 @@
+/* CSS FOR NAV BAR */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.navbar a {
+  color: rgb(224 171 121);
+  text-decoration: none;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar a:hover {
+  background-color:;
+}
