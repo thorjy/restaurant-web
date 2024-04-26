@@ -34,6 +34,10 @@ npm i
 ```
 followed by
  ```bash
+npm run migrate
+```
+- This will run the migration scheme, and create the tables for the database. Once done, start the backend server by running
+ ```bash
 npm start
 ```
   - In your terminal, create a new terminal, and navigate to restaurant-web/frontend folder, type
