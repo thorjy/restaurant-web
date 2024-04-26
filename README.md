@@ -7,7 +7,7 @@ Before getting started, ensure you have the following installed:
 1. [Node.js](https://nodejs.org/) - Ensure Node.js is installed on your system.
 2. [Visual Studio Code](https://code.visualstudio.com/) - Ensure Visual Studio Code is installed on your system.
 3. [PostgreSQL and pgAdmin 4](https://www.pgadmin.org/download/) - Ensure PostgreSQL and pgAdmin 4 are installed on your system.
-4. * [Git](https://git-scm.com/) - Ensure Git is installed on your system
+4. [Git](https://git-scm.com/) - Ensure Git is installed on your system
 
 ## Installation
 
